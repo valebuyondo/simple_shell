@@ -1,8 +1,4 @@
-/*
- * File: builtin.c
- * Auth: Alex Yu
- *       Brennan D Baraban
- */
+
 
 #include "shell.h"
 int (*get_builtin(char *command))(char **args, char **front);
